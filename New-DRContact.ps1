@@ -5,7 +5,7 @@
 $OU = Read-Host -Prompt "OU to put the contact in (format domain/staff/contacts)"
 $FirstName = Read-Host -Prompt "What is the user's first name"
 $LastName = Read-Host -Prompt "What is the user's last name"
-$Mobile = Read-Host -Prompt "What is the mobile number e-mail address txt.att.net, vtext.com, pcs.ntelos.net, sprintpcs.com"
+$Mobile = Read-Host -Prompt "What is the mobile number e-mail address (Common Domains- txt.att.net, vtext.com, pcs.ntelos.net, sprintpcs.com)"
 $Personal = Read-Host -Prompt "What is the user's personal e-mail address"
 
 if ($Mobile) {
