@@ -13,7 +13,6 @@ param (
 
 Import-Module ActiveDirectory
 
-#$jpgdir = "O:\Building\ID Card Pics\New Pics 2016"
 #$objOU = New-Object System.DirectoryServices.DirectoryEntry($OU)
 
 Function ResizeImage() {
